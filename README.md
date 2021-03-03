@@ -1,24 +1,10 @@
-# Web-app-for-hotels-and-restaurants or modern name FICHA
+## 1 lab:
+screenshots of responsiveness:
+![image](https://user-images.githubusercontent.com/49121161/109878523-13ceac80-7c7d-11eb-94e8-a52f9ea156fd.png)
+![image](https://user-images.githubusercontent.com/49121161/109878584-221cc880-7c7d-11eb-95ae-ffe5912e534f.png)
+![image](https://user-images.githubusercontent.com/49121161/109878621-2f39b780-7c7d-11eb-9987-1e31f782fe0e.png)
 
-  
-Our project directed to service sector. From small bars and hostels to restaurants with Michelin stars and hotels with world fame.  
-
-Today's one of main problem is COVID-19. So we decided to make this project.  
-  
-  **Lets image:**  
-  You came to restaurant and scaned QR-code. What you will see?  
-  It will be only menu. It can be only pdf or even special site. So, to make your order you must call waiter.  
-  ## BUT IF RESTAURANT WILL IMPLEMENT FICHA. 
-  You can make your order with web-app. You mustn't speak with waiter. You can only choose what you want, and wait. 
-
-# How to install and use?
-
-  Firstly you must instal any code editor and install Python v3.8.*:
-  
-  * install all requirements with command in terminall `pip install -r requirements.txt` 
-  * run server with command in terminal `python manage.py runserver 0.0.0.0:8000` 
-  ## check waiter app page:
-   
-   * to compile your editing write in yout terminal `npm run dev-waiter`
-   * in link line you must paste `ip:port/waiter`
-  
+## 2 lab
+## 3 lab
+## 4 lab
+## 5 lab
