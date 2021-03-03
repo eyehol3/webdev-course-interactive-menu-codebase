@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 from . import credentials
-from . import get_ip
+from global_package import get_ip_address
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +27,7 @@ SECRET_KEY = credentials.secret_key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-IP = get_ip.get_ip_address()
+IP = get_ip_address()
 
 ALLOWED_HOSTS = [IP, 'localhost', '0.0.0.0']
 
@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [IP, 'localhost', '0.0.0.0']
 
 INSTALLED_APPS = [
     'hot_res_app.apps.HotResAppConfig',
+    'waiter.apps.WaiterConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -125,4 +126,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = "/static/"
+
+STATICFILES_DIRS = (BASE_DIR / 'static/', BASE_DIR / '/waiter/static/')
+
+SESSION_COOKIE_AGE = 18*3600

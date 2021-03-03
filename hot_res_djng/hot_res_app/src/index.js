@@ -1,10 +1,11 @@
 import React from "react";
 import { render }  from "react-dom";
-import Menu from "./components/menu.js";
+import App from "./components/app.jsx";
+
 
 render(
     <div>
-        <Menu />
+        <App />
     </div>
     , document.getElementById("app")
 );
