@@ -1,6 +1,6 @@
 ## description
-interactive menu for hotels and restaurants which allows to make orders and minimizes physical interactions.
-i'm responsible for the menu app itself. this project also includes waiter interface to monitor incoming orders. this app started as a part of 3rd term university project.
+interactive menu for hotels and restaurants which allows making orders and minimizes physical interactions.
+i'm responsible for the menu app itself. this project also includes the waiter interface to monitor incoming orders. this app started as a part of 3rd term university project.
 
 ## 1 lab:
 screenshots of responsiveness:
@@ -11,10 +11,14 @@ webpack is used as a bundler, it's also responcible for compiling scss
 
 ## 2 lab
 this is npm project
-i'm using `fetch` to pull menu with pictures from db (rest endpoints).
+i'm using `fetch` to pull the menu with pictures from db (rest endpoints).
 fetched data is in json format
 support for most popular browsers
 
 ## 3 lab
+we are using react.js for frontend. as you can see, components and other raw files are in src folder. i'm keeping to a single responsibility principle and separating components into different files. the state is managed solely with react hooks and is preserved after reload by utilizing local storage.
+
 ## 4 lab
+project-specific functionality is the ability to form orders with an interactive menu and to make an order.
+
 ## 5 lab
