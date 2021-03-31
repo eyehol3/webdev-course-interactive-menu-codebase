@@ -1,4 +1,6 @@
 ## description
+https://ficha.n-st-r.xyz/
+
 interactive menu for hotels and restaurants which allows making orders and minimizes physical interactions.
 i'm responsible for the menu app itself. this project also includes the waiter interface to monitor incoming orders. this app started as a part of 3rd term university project.
 
