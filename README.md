@@ -2,7 +2,7 @@
 https://ficha.n-st-r.xyz/
 
 interactive menu for hotels and restaurants which allows making orders and minimizes physical interactions.
-i'm responsible for the menu app itself. this project also includes the waiter interface to monitor incoming orders. this app started as a part of 3rd term university project.
+i'm responsible for the menu app itself. this project also includes the [waiter interface](https://github.com/BurlyLlama28/webdev-course-interactive-menu-codebase) to monitor incoming orders. this app started as a part of 3rd term university project.
 
 ## 1 lab:
 screenshots of responsiveness:
