@@ -24,3 +24,6 @@ we are using react.js for frontend. as you can see, components and other raw fil
 project-specific functionality is the ability to form orders with an interactive menu and to make an order.
 
 ## 5 lab
+![image](https://user-images.githubusercontent.com/49121161/119772254-8db2b280-bec7-11eb-8539-c5c28814677b.png)
+
+## 6 lab - py-websockets folder
